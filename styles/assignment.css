@@ -252,8 +252,8 @@
 }
 
 .container-circle {
-    height: 140px;
-    width: 280px;
+    height: 135px;
+    width: 270px;
     padding: 120px 115px 120px 0;
     border: 10px solid #F00;
     border-radius: 100%;
@@ -265,5 +265,29 @@
 .circle-img {
     position: relative;
     bottom: 280px;
-    right: 25px;
+    right: 30px;
+}
+
+.second-container h2 {
+    font-size: 48px;
+    font-weight: 700;
+    padding: 150px 13px 43px 120px;
+}
+
+.second-container-description {
+    color: rgba(0, 0, 0, 0.7) font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 276px;
+    position: relative;
+    left: 89px;
+    bottom: 30px;
+}
+
+.new-img {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    left: 83px;
+    bottom: 30px;
 }
