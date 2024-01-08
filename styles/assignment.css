@@ -316,8 +316,19 @@
 .holiday-description {
     font-size: 20px;
     font-weight: 500;
-    width:695px;
+    width: 695px;
     position: relative;
     left: 300px;
     bottom: 100px;
+}
+
+/* Reactangal Style */
+.rectangal-img {
+    width: 1320px;
+    height: 229px;
+    border: 0;
+    border-radius: 20px;
+    position: relative;
+    left: 15px;
+    top: 500px;
 }
