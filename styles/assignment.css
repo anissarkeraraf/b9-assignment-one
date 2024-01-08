@@ -2,8 +2,6 @@
 .body-color {
     margin: 0;
     padding: 0;
-    width: 1600px;
-    height: 733px;
     background: #FFF;
 }
 
@@ -290,4 +288,36 @@
     position: relative;
     left: 83px;
     bottom: 30px;
+}
+
+/* holiday-sale Style */
+
+.holiday-sale {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+}
+
+.hoiday-sale h1 {
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    bottom: 160px;
+}
+
+.holiday-sale h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    position: relative;
+    bottom: 60px;
+}
+
+.holiday-description {
+    font-size: 20px;
+    font-weight: 500;
+    width:695px;
+    position: relative;
+    left: 300px;
+    bottom: 100px;
 }
