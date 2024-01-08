@@ -176,7 +176,7 @@
     align-items: center;
     gap: 10px;
     border-radius: 8px;
-   
+
 }
 
 .third-section-btn {
@@ -187,9 +187,83 @@
     background: #F00;
     border: none;
 }
+
 /* Forth Section Styless */
 
-.container{
-   
+.container-section {
+    display: flex;
 }
 
+.container-tittle {
+    padding: 100px 70px 225px 50px;
+}
+
+.container-tittle h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+.container-tittle h1 {
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.container {
+    text-align: left;
+    padding-right: 50px;
+}
+
+.container h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    right: 55px;
+    top: 30px;
+
+}
+
+.container h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    right: 45px;
+}
+
+.container-description {
+    color: black font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    position: relative;
+    right: 20px;
+    bottom: 43px;
+    padding-left: 80px;
+    padding-top: 0;
+}
+
+.container-circle {
+    height: 140px;
+    width: 280px;
+    padding: 120px 115px 120px 0;
+    border: 10px solid #F00;
+    border-radius: 100%;
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+
+.circle-img {
+    position: relative;
+    bottom: 280px;
+    right: 25px;
+}
