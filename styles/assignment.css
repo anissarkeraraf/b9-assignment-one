@@ -382,17 +382,19 @@ h1 {
     left: 750px;
     bottom: 1055px;
 }
+
 /* picture style */
-.picture-tittle{
+.picture-tittle {
     position: relative;
     left: 20px;
 }
+
 .picture-tittle h2 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 
 .picture-tittle h1 {
@@ -412,16 +414,90 @@ h1 {
     position: relative;
     bottom: 50px;
 }
+
 /* Six image style */
-.six-image{
+.six-image {
     padding-left: 20px;
 }
-.three-image{
+
+.three-image {
     display: flex;
     gap: 20px;
     padding-bottom: 20px;
 }
-.second-three-image{
+
+.second-three-image {
     display: flex;
     gap: 20px;
+}
+
+/* last section style */
+.last-section {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 15px;
+}
+
+.section-design {
+    text-align: center;
+}
+
+.img-group-61 {
+    width: 150px;
+    height: 150px;
+    padding: 80px 580px 20px;
+}
+
+.img-tittle {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0 400px 20px;
+}
+
+.img-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    text-align: center;
+    padding: 0 215px 30px;
+}
+
+.input-type {
+    padding: 0 335px 80px;
+    display: flex;
+    border: none;
+}
+
+.section-design input[type=text] {
+    padding: 20px 200px 20px 30px;
+    width: 648px;
+    height: 20px position:relative;
+    border-radius: 0px 50px 50px 0px;
+    border:none;s
+}
+
+.btn-style {
+   
+    width: 210px;
+    height: 72px;
+    position: absolute;
+    padding-left: 470px;
+   
+}
+
+.btn {
+    padding: 20px 50px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    border: none;
+   
 }
