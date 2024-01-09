@@ -1,8 +1,16 @@
 /* Banner style */
 .body-color {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background: #FFF;
+    max-width: 1600px;
+    height: 7000px;
+}
+
+.header {
+    position: relative;
+    right: 135px;
+    padding: 50px 140px 0 140px;
 }
 
 .banner {
@@ -196,14 +204,16 @@
     padding: 100px 70px 225px 50px;
 }
 
-.container-tittle h2 {
+.container-tittle,
+h2 {
     padding-bottom: 0;
     margin-bottom: 0;
     padding-top: 40px;
     padding-right: 30px;
 }
 
-.container-tittle h1 {
+.container-tittle,
+h1 {
     padding-top: 0;
     padding-bottom: 20px;
     padding-bottom: 30px;
@@ -249,21 +259,23 @@
     padding-top: 0;
 }
 
-.container-circle {
-    height: 135px;
-    width: 270px;
-    padding: 120px 115px 120px 0;
-    border: 10px solid #F00;
-    border-radius: 100%;
-    position: relative;
-    top: 100px;
-    right: 50px;
-}
+
 
 .circle-img {
     position: relative;
-    bottom: 280px;
+    right: 50px;
+    top: 120px;
+    border: 10px solid #F00;
+    border-radius: 100%;
+    padding: 30px;
+
+
+}
+
+.second-container {
+    position: relative;
     right: 30px;
+    bottom: 85px;
 }
 
 .second-container h2 {
@@ -296,21 +308,32 @@
     color: #070211;
     text-align: center;
     font-family: Inter;
+    padding-left: 90px;
+    padding-right: -30px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    right: 20px;
 }
 
-.hoiday-sale h1 {
+.holiday-sale h1 {
     font-size: 24px;
     font-weight: 500;
     position: relative;
-    bottom: 160px;
+    right: 110px;
+    top: 0px;
 }
 
 .holiday-sale h2 {
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+    padding-bottom: 30px;
+    padding: 0;
+    padding-right: -20px;
     position: relative;
-    bottom: 60px;
+    right: 110px;
+    bottom: 50px;
 }
 
 .holiday-description {
@@ -318,17 +341,87 @@
     font-weight: 500;
     width: 695px;
     position: relative;
-    left: 300px;
-    bottom: 100px;
+    right: 0px;
+    left: 170px;
+    bottom: 50px;
 }
 
 /* Reactangal Style */
-.rectangal-img {
+.rectangal-style {
+    padding-top: 500px;
+    padding-left: 17px;
+    padding-bottom: 80px;
+}
+
+.rectangal {
+    background: radial-gradient(49.96% 50% at 50% 50.23%, #000 0%, #FFF 100%), url('../resources/Rectangle\ 2.png');
     width: 1320px;
     height: 229px;
-    border: 0;
-    border-radius: 20px;
+    border-radius: 10px 0 10px 10px;
+    background: #F00;
+
+}
+
+.rectangal-img-75 {
+    position: absolute;
+    width: 200px;
+    height: 250px;
     position: relative;
-    left: 15px;
-    top: 500px;
+    bottom: 450px;
+
+}
+
+.rectangal-img-1 {
+    position: relative;
+    left: 891px;
+    bottom: 683px;
+}
+
+.rectangal-img-44 {
+    position: relative;
+    left: 750px;
+    bottom: 1055px;
+}
+/* picture style */
+.picture-tittle{
+    position: relative;
+    left: 20px;
+}
+.picture-tittle h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;    
+}
+
+.picture-tittle h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+}
+
+.picture-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    position: relative;
+    bottom: 50px;
+}
+/* Six image style */
+.six-image{
+    padding-left: 20px;
+}
+.three-image{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.second-three-image{
+    display: flex;
+    gap: 20px;
 }
