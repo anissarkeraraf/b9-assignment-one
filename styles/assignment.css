@@ -418,6 +418,8 @@ h1 {
 /* Six image style */
 .six-image {
     padding-left: 20px;
+    position: relative;
+    left: 28px;
 }
 
 .three-image {
@@ -480,16 +482,17 @@ h1 {
     width: 648px;
     height: 20px position:relative;
     border-radius: 0px 50px 50px 0px;
-    border:none;s
+    border: none;
+    s
 }
 
 .btn-style {
-   
+
     width: 210px;
     height: 72px;
     position: absolute;
     padding-left: 470px;
-   
+
 }
 
 .btn {
@@ -499,5 +502,76 @@ h1 {
     color: #FFF;
     text-align: center;
     border: none;
-   
+}
+
+/* Footer Section */
+.footer {
+    background-color: #070211;
+    width: 1350px;
+    height: 600px;
+    position: relative;
+    color: #FFF;
+    font-family: Inter;
+}
+
+.footer-div {
+    display: flex;
+    padding-left: 140px;
+    padding-right: 190px;
+    justify-content: space-between;
+}
+
+.footer-tittle {
+    padding: 120px 400px 40px 0;
+    position: relative;
+    right: 140px;
+    top: 40px;
+}
+
+.footer-contact-section {
+    padding-top: 160px;
+    padding-bottom: 40px;
+
+}
+
+.social {
+    display: flex;
+    padding: 40px 320px;
+    gap: 25px;
+}
+
+.footer-section {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.footer-cintact-section img {
+    width: 24px;
+    height: 20px;
+
+}
+.call {
+    padding-bottom: 7px;
+}
+
+a {
+    position: relative;
+    right: 30px;
+    bottom: 50px;
+}
+
+.last-tittle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-tittle h2, h1{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+.last-tittle h1{
+    position: relative;
+    right: 240px;
+    top: 45px;
 }
